@@ -5,10 +5,15 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url("./images/mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
-
 h1{
     text-align: center;
+    color: white;
 }
 .main{
     display: flex;
@@ -18,9 +23,10 @@ h1{
 }
 button{
     border: 1px solid black;
-    height: 32px;
     border-radius: 5px;
     margin-bottom: 32px;
+    padding: 10px 25px;
+
 }
 button:hover{
     background-color: black;
@@ -43,4 +49,7 @@ button:hover{
 }
 .description{
     margin: 16px;
+}
+div{
+    color: white;
 }
